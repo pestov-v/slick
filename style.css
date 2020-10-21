@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slider {
+  position: relative;
+  min-width: 0;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  font-size: 0;
+  z-index: 10;
+  outline: none;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 20px;
+  background: url('img/left-arrow.svg') 0 0 / 100% no-repeat;
+  padding: 30px;
+  border: none;
+}
+.slider .slick-arrow.slick-next {
+  right: 20px;
+  background: url('img/right-arrow.svg') 0 0 / 100% no-repeat;
+  padding: 30px;
+  border: none;
+}

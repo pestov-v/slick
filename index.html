@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container slider">
+      <div class="slider__item">
+        <picture>
+          <source media="(max-width: 500px)" srcset="img/banner-small.jpg" />
+          <source media="(max-width: 768px)" srcset="img/banner-medium.jpg" />
+          <source media="(max-width: 1024px)" srcset="img/banner-large.jpg" />
+          <img src="img/banner-large.jpg" alt="Banner" />
+        </picture>
+      </div>
+
+      <div class="slider__item">
+        <picture>
+          <source media="(max-width: 500px)" srcset="img/people-small.jpg" />
+          <source media="(max-width: 768px)" srcset="img/people-medium.jpg" />
+          <source media="(max-width: 1024px)" srcset="img/people-large.jpg" />
+          <img src="img/people-large.jpg" alt="Banner" />
+        </picture>
+      </div>
+
+      <div class="slider__item">
+        <picture>
+          <source media="(max-width: 500px)" srcset="img/waterfall-small.jpg" />
+          <source
+            media="(max-width: 768px)"
+            srcset="img/waterfall-medium.jpg"
+          />
+          <source
+            media="(max-width: 1024px)"
+            srcset="img/waterfall-large.jpg"
+          />
+          <img src="img/waterfall-large.jpg" alt="Banner" />
+        </picture>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
